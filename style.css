@@ -1,0 +1,119 @@
+body {
+background-color:antiquewhite;
+color: #A13333;
+font-family: font-family: 'Lora', serif;
+font size: 30px;
+}
+
+h1,h2, h3 {
+font-family:font-family: 'Lora', serif; ;
+
+}
+
+h1 {
+color: #632626;
+font size: 32px;
+font-weight: 400;
+font font-weight: lighter;
+letter-spacing: 3px;
+}
+
+h2 {
+color: #632626;
+font size: 28px;
+font-weight: 400;
+font font-weight: lighter;
+}
+
+p{
+  font-size: 20px;
+  font-weight: 400;
+  texte-align: center;
+}
+
+a {
+text-decoration: none;
+color: #A13333;
+font-size: 20px;
+transition: 0.3 ease;
+font-weight: bold;
+}
+
+a:hover {
+color: brown;
+}
+
+ul{
+  font-weight: 400;
+}
+
+@media (max-width:  760px) {
+    .container {
+      width: 600px;
+    }
+  }
+
+  @media (max-width:  500px) {
+    .container {
+       width: 400px;
+  }
+
+#img-circle {
+  border-radius: 50%;
+}
+
+.btn-lightsalmom{
+     background-color: lightsalmon;
+     color: floralwhite;
+     font-family: montserrat;
+     font-size: 18px;
+     padding: 15px 20px;
+     border-radius: 4px;
+}
+.btn-lightsalmom:hover{
+  background-color: black;
+  color: floralwhite;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: (230, 230, 230);
+}
+
+.list-inline i:hover {
+   color: rosybrown;
+}
+
+.container{
+  text-align: center;
+}
+
+#intro p{
+  margin-bottom: 40px;
+}
+
+div{
+background: antiquewhite;
+width: 700px;
+border: 40px ;
+margin: 40px auto;
+padding: 40px auto;
+}
+
+   <div class="container">
+    	container {
+  width: 700px;
+  margin: 40px auto
+  }
+    
+  
